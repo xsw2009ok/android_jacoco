@@ -29,9 +29,34 @@ public class EditTextActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String s = mEtUserName.getText().toString();
 
-                if ("9527".equals(s)){
-                    Toast.makeText(EditTextActivity.this, "登录成功!", Toast.LENGTH_SHORT).show();
-                    return ;
+                if ("9527".equals(s)) {
+                    Toast.makeText(EditTextActivity.this, "用户:" + s + "登录成功!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                if ("1111".equals(s)) {
+                    Toast.makeText(EditTextActivity.this, "用户:" + s + "登录成功!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                if ("2222".equals(s)) {
+                    Toast.makeText(EditTextActivity.this, "用户:" + s + "登录成功!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                if ("3333".equals(s)) {
+                    Toast.makeText(EditTextActivity.this, "用户:" + s + "登录成功!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                if ("4444".equals(s)) {
+                    Toast.makeText(EditTextActivity.this, "用户:" + s + "登录成功!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                if ("5555".equals(s)) {
+                    Toast.makeText(EditTextActivity.this, "用户:" + s + "登录成功!", Toast.LENGTH_SHORT).show();
+                    return;
                 }
 
                 Toast.makeText(EditTextActivity.this, "用户名不存在!", Toast.LENGTH_SHORT).show();
